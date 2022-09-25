@@ -1,25 +1,6 @@
  import React, {useReducer, useState} from "react"
  import { ReactDOM } from "react"
 
-
-
-
-// function App() {
-//   const [name,setName] = useState("John Doe")
-//   return (
-//     <div className="">
-//    <h1> A simple  {name}</h1>
-//    <button 
-//    onClick={() => setName("Jane Doe")}>
-//     update text
-//    </button>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 function App() {
 
   const initialState = {
